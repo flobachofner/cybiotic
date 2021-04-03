@@ -7,9 +7,11 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 body {
+	position: relative;
 	background-color: rgba(0, 0, 0, 0.45);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -50,7 +52,7 @@ h2 {
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: 16px;
-	margin: 130px 0 25px 0 !important;
+	margin: 220px 0 25px 0 !important;
 	padding: 0 !important;
 }
 
