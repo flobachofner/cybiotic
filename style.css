@@ -8,3 +8,96 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+body {
+	background-color: rgba(0, 0, 0, 0.45);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+	color: white;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /*whatever width you want*/
+}
+
+
+h2 {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	
+	font-family: acier-bat-solid, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 16px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+
+.btn {
+	background-color: transparent!important;
+	border: solid 1px white !important;
+	-webkit-box-shadow: 0 0 0 !important;
+    box-shadow: 0 0 0 !important;
+}
+
+.waves-effect input[type="submit"] {
+	color: white !important;
+	letter-spacing: 4px !important;
+	text-transform: lowercase !important;
+}
+
+.input-field.col label {
+	text-transform: lowercase !important;
+}
+
+/* label color */
+.input-field label {
+ color: #fff !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+ color: #fff !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #fff !important;
+ box-shadow: 0 1px 0 0 #fff !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+ border-bottom: 1px solid #fff !important;
+ box-shadow: 0 1px 0 0 #fff !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+ border-bottom: 1px solid #fff !important;
+ box-shadow: 0 1px 0 0 #fff !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #fff !important;
+}
+
