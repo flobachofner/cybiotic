@@ -51,7 +51,7 @@ h2 {
 	font-weight: 400;
 	font-style: normal;
 	letter-spacing: 16px;
-	margin: 0 !important;
+	margin: 130px 0 25px 0 !important;
 	padding: 0 !important;
 }
 
@@ -59,18 +59,29 @@ p {
 	text-align: center;
 }
 
-
 .btn {
-	background-color: transparent!important;
+	background-color: rgba(255,255,255,0.1) !important;
 	border: solid 1px white !important;
 	-webkit-box-shadow: 0 0 0 !important;
     box-shadow: 0 0 0 !important;
+	transform: scale(1.2);
+	margin: 15px 0 0 0;
+}
+
+.btn:hover {
+	background-color: rgba(32,32,32,0.2) !important;
+	transform: scale(1.23);
+	cursor: pointer !important;
 }
 
 .waves-effect input[type="submit"] {
 	color: white !important;
 	letter-spacing: 4px !important;
 	text-transform: lowercase !important;
+}
+
+input:hover{
+	cursor: pointer !important;
 }
 
 .input-field.col label {
