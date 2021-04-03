@@ -42,6 +42,12 @@ body {
   /*whatever width you want*/
 }
 
+@media only screen and (max-width: 600px) {
+	.inner {
+		width: 100%;
+	}
+}
+
 
 h2 {
 	display: inline-block;
@@ -140,7 +146,6 @@ input:hover{
 	text-align: center !important;
 	margin-top: 30px;
 	display:block;
-	text-align:center;
 }
 
 .fab {
