@@ -55,6 +55,10 @@ h2 {
 	padding: 0 !important;
 }
 
+p {
+	text-align: center;
+}
+
 
 .btn {
 	background-color: transparent!important;
