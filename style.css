@@ -54,6 +54,11 @@ h2 {
 	padding: 0 !important;
 }
 
+#thanks {
+	width: 50%;
+	transform: translate(50%);
+}
+
 p {
 	font-size: 16px;
 	text-align: center;
@@ -106,10 +111,15 @@ input:hover{
  border-bottom: 1px solid #fff !important;
  box-shadow: 0 1px 0 0 #fff !important;
 }
+/* color */
+.input-field input[type=text] {
+	color: white !important;
+}
 /* valid color */
 .input-field input[type=text].valid {
  border-bottom: 1px solid #fff !important;
  box-shadow: 0 1px 0 0 #fff !important;
+ color: white !important;
 }
 /* invalid color */
 .input-field input[type=text].invalid {
